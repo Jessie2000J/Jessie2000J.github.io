@@ -1,6 +1,6 @@
-// include api for currency change 
 
-const api = "https://api.exchangerate-api.com/v4/latest/USD"; 
+
+const currencyrateapi = "https://api.exchangerate-api.com/v4/latest/USD"; 
 
   
 // for selecting different controls 
@@ -61,7 +61,7 @@ convert.addEventListener("click", getResults);
 
 function getResults() { 
 
-    fetch(`${api}`) 
+    fetch(`${currencyrateapi}`) 
 
         .then(currency => { 
 
